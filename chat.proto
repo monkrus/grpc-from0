@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package chat;
+
+option go_package = "github.com/monkrus/grpc-from0;grpc_from0";
+
+
+message Message {
+
+  string body = 1;
+}
+
+service ChatService {
+  rpc SayHello(Message) returns (Message) {}
+}
+
