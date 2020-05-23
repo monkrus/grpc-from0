@@ -11,10 +11,10 @@
 ## Commands
 
 ```sh
-Install protocol buffers       `go get -u github.com/golang/protobuf/protoc-gen-go`
-Generate Go specific gRPC code `protoc --go_out=plugins=grpc:chat chat.proto`
-Run server                     `go run server.go`
-Run client                     `go run client.go`
+Install protocol buffers        `go get -u github.com/golang/protobuf/protoc-gen-go`
+Generate Go specific gRPC code  `protoc --go_out=plugins=grpc:chat chat.proto`
+Run server                      `go run server.go`
+Run client                      `go run client.go`
 ```
 
 ## Author
